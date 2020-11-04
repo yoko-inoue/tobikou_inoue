@@ -1,0 +1,16 @@
+.header
+  .headerInner
+    .headerInner__main
+      .headerInner__main_logo
+        = link_to root_path, class:"headerInner__main_logo" do
+          = image_tag "logo/logo-transparent.png", height: ' 140px', width: ' 140px'
+      .headerInner__main_name
+        .h1 株式会社
+        .a 鳶工井上
+      .headerInner__main_address
+        %ul 〒780-8050
+        %li 高知県高知市鴨部1054-1
+        %li TEL : 088-833-2336
+        %li
+          %a{:href => "mailto:tobikou_inoue@outlook.jp"} tobikou_inoue@outlook.jp
+

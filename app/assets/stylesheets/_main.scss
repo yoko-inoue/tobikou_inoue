@@ -1,0 +1,40 @@
+.main{
+  &__image{
+    &_pic{
+      position: relative;
+      width: 100%;
+      .image{
+        height: 800px;
+        width: 100%;
+      }
+      .text_1{
+        position: absolute;
+        width: 100%;
+        font-size: 60px;
+        text-align: center;
+        color: #ffffff;
+        top: 100px;
+        background: rgba(0,0,0,0.4);
+      }
+      .text_2{
+        position: absolute;
+        width: 100%;
+        font-size: 60px;
+        text-align: center;
+        color: #ffffff;
+        top: 300px;
+        background: rgba(0,0,0,0.4);
+      }
+      .text_3{
+        position: absolute;
+        width: 100%;
+        font-size: 60px;
+        text-align: center;
+        color: #ffffff;
+        top: 400px;
+        background: rgba(0,0,0,0.4);
+
+      }
+    }
+  }
+}

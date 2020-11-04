@@ -1,0 +1,14 @@
+.menu{
+  width: auto;
+  height: 40px;
+  background-color: rgb(73, 186, 238);
+  &__btn{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    a{
+      color: #ffffff;
+      
+    }
+  }
+}
