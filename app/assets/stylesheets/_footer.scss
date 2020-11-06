@@ -1,0 +1,10 @@
+.footer{
+  width: 100%;
+  height: 200px;
+  .footerInner__menu{
+    &_logo{
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

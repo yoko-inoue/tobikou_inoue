@@ -1,0 +1,15 @@
+.summary{
+  &__info{
+    &_menu{
+      font-size: 30px;
+      color: green;
+      display: flex;
+      justify-content: center;
+    }
+    &_name{
+      background-color: springgreen;
+      padding-left: 30px;
+      font-size: x-large;
+    }
+  }
+}
