@@ -2,20 +2,30 @@
   &__info{
     &_name{
       background-color: springgreen;
-      padding-left: 30px;
+      padding-left: 80px;
       font-size: x-large;
     }
-    .history__date{
-      font-size: larger;
-      font-weight: bold;
-      padding-left: 50px;
-      color: navy;
-      margin-top: 30px;
-      &_content{
+    table{
+      margin-top: 20px;
+      margin-left: 130px;
+      margin-bottom: 20px;
+      th{
+        font-size: larger;
+        font-weight: bold;
+        width: 160px;
+        height: 50px;
+        padding-left: 30px;
+        color: navy;
+        margin-top: 30px;
+        background-color: paleturquoise;
+      }
+      td{
         font-size: medium;
         font-weight: normal;
-        padding-left: 120px;
-        color: #000000;
+        width: 600px;
+        height: 50px;
+        padding-left: 20px;
+        color:#000000;
       }
     }
   }
