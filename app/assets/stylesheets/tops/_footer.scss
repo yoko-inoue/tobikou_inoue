@@ -1,7 +1,15 @@
 .footer{
   width: 100%;
   height: 200px;
+  margin-top: 20px;
   .footerInner__menu{
+    &_btn{
+      width: 150px;
+      margin: 0 0 0 auto;
+      a{
+        color: navy;
+      }
+    }
     &_logo{
       display: flex;
       justify-content: center;

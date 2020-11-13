@@ -1,6 +1,9 @@
 .footer
   .footerInner__menu
-    .footerInnner__menu_logo
+    .footerInner__menu_btn
+      = link_to 'トップページへ戻る', root_path
+
+    .footerInner__menu_logo
       = link_to root_path, class:"footerInner__menu_logo" do
         = image_tag "logo/logo-transparent.png", height: ' 140px', width: ' 140px'
-
+    
