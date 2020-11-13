@@ -1,0 +1,38 @@
+.job__info{
+  &_main{
+    h1{
+      font-size: x-large;
+      font-weight: bold;
+      margin-top: 30px;
+      padding-left: 130px;
+      color: paleturquoise;
+      background-color: #000000;
+    }
+    .job__info_content{
+      margin-left: 80px;
+      table{
+        margin-top: 20px;
+        margin-left: 130px;
+        margin-bottom: 20px;
+        th{
+          font-size: larger;
+          font-weight: bold;
+          width: 120px;
+          height: 50px;
+          padding-left: 30px;
+          color: navy;
+          margin-top: 30px;
+          background-color: paleturquoise;
+        }
+        td{
+          font-size: medium;
+          font-weight: normal;
+          width: 600px;
+          height: 50px;
+          padding-left: 20px;
+          color:#000000;
+        }
+      }
+    }
+  }
+}
