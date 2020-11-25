@@ -6,8 +6,21 @@
     &_btn{
       width: 150px;
       margin: 0 0 0 auto;
+      margin-right: 30px;
       a{
         color: navy;
+      }
+    }
+    &_inquiry{
+      width: 150px;
+      margin: 0 0 0 auto;
+      margin-top: 10px;
+      margin-right: 30px;
+      a{
+        display: flex;
+        justify-content: center;
+        background-color: paleturquoise;
+        text-decoration: none;
       }
     }
     &_logo{
